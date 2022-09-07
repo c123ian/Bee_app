@@ -1,10 +1,11 @@
 from fastai.vision.widgets import *
 from fastai.vision.all import *
 
+# resolve error NotImplementedError: cannot instantiate 'WindowsPath' on your system
 import pathlib
-
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+plt = platform.system()
+if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
+    
 
 import streamlit as st
 
