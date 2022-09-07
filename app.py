@@ -46,7 +46,7 @@ with col2:
 
 #--------------#
 def load_model():
-    return load_learner("bee_init.pkl")
+    return load_learner(r"bee_init.pkl")
 
 
 with st.spinner("I am collecting my thoughts..."):
