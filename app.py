@@ -4,6 +4,10 @@ from fastai.vision.widgets import *
 import json
 from streamlit_lottie import st_lottie
 
+from pathlib import Path
+
+path = Path(r'bee_init.pkls')
+
 #####################################
 # Streamlit page configuration
 #####################################
@@ -52,7 +56,10 @@ with col2:
 #####################################
 
 def load_model():
-    return load_learner("bee_init.pkl")
+    return load_learner(path)
+
+
+
 
 with st.spinner("I am collecting my thoughts..."):
     model = load_model()
