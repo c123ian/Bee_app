@@ -6,7 +6,7 @@ from streamlit_lottie import st_lottie
 
 from pathlib import Path
 
-path = Path(r'Bee_app/bee_init.pkls')
+path = Path(r"bee_init.pkls")
 
 #####################################
 # Streamlit page configuration
