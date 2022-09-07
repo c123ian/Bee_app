@@ -3,5 +3,5 @@ fastcore == 1.5.24
 torch == 1.9.1
 streamlit==1.10.0
 streamlit-lottie==0.0.3
-
+ipywidgets
 
