@@ -4,7 +4,9 @@ from fastai.vision.widgets import *
 import json
 from streamlit_lottie import st_lottie
 
-from pathlib import Path
+import pathlib
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
 
 #--------------------------#
 # customise app UI
