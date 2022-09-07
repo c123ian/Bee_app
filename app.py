@@ -4,6 +4,8 @@ from fastai.vision.widgets import *
 import json
 from streamlit_lottie import st_lottie
 
+import pathlib
+
 #--------------------------#
 # customise app UI
 
@@ -46,6 +48,9 @@ with col2:
 
 #--------------#
 def load_model():
+    plt = platform.system()
+    if plt == 'Windows':
+        pathlib.WindowsPath = pathlib.PosixPath
     return load_learner("bee_init.pkl")
 
 
