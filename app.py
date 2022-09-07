@@ -3,6 +3,9 @@ from fastai.vision.all import *
 
 from pathlib import Path
 
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
+
 import streamlit as st
 
 class Predict:
