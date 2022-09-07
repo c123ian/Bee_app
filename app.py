@@ -29,7 +29,7 @@ def load_lottiefile(filepath: str):
         with open(filepath, "r") as f:
             return json.load(f)
         
-lottie_coding = load_lottiefile("images/lottie.json")
+lottie_coding = load_lottiefile("images/bee-flying.json")
 col1, col2, col3 = st.columns(3)
 with col2:   
     st_lottie(
