@@ -2,7 +2,7 @@
 
 Beside honeybee, many solitary bee species numbers are dwindling in the wild. It is hoped this app can assist in identifying bee species for tracking.
 
-Using fastai, trained a CNN Rensnet model trained on 295903 images of 99 bee species I sourced from https://species.biodiversityireland.ie/ list of bee species native to Ireland (and other geographical locations).
+Using fastai, trained a CNN Rensnet model (FlattenedLoss of CrossEntropyLoss) on 295903 images of 99 bee species I sourced from https://species.biodiversityireland.ie/ list of bee species native to Ireland (and other geographical locations).
 
 Streamlit bee classification app https://c123ian-bee-app-app-evtngf.streamlitapp.com/
 
