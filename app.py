@@ -7,7 +7,8 @@ from streamlit_lottie import st_lottie
 # resolve error NotImplementedError: cannot instantiate 'WindowsPath' on your system
 import pathlib
 plt = platform.system()
-if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
+if plt == 'Linux':
+    pathlib.WindowsPath = pathlib.PosixPath
 
 #--------------------------#
 # customise app UI
