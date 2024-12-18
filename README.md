@@ -9,4 +9,6 @@ Streamlit bee classification app https://c123ian-bee-app-app-evtngf.streamlitapp
 Guide to creating streamlit app: https://ibronko.hashnode.dev/fastai-practical-deep-learning-for-coders-3
 Guide to creating fastai model: https://towardsdatascience.com/how-to-create-an-app-to-classify-dogs-using-fastai-and-streamlit-af3e75f0ee28
 
+The dataset: https://huggingface.co/datasets/c123ian/Bee_species_classification
+
 Note: the bee dataset I created is highly imbalanced.
